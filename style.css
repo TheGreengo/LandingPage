@@ -23,7 +23,7 @@ header {
     color: #F9FAF8;
     font-weight: bold;
     display: flex;
-    margin-left: 100px;
+    margin-left: 50px;
     align-items: center;
 }
 
@@ -31,7 +31,7 @@ header {
     display: flex;
     gap: 25px;
     align-items: center;
-    margin-right: 100px;
+    margin-right: 50px;
 }
 
 a {
@@ -110,6 +110,10 @@ h2 {
 }
 
 .round {
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    text-align: center;
     border-radius: 25px;
     border: 4px solid #3882F6;
     width: 160px;
@@ -188,4 +192,10 @@ footer {
 footer p {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.border
+{
+    border: 3px solid white;
+    background-color: #1463e1;
 }
